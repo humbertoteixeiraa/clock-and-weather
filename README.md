@@ -1,2 +1,9 @@
 # clock
- Clock created in the JAVASCRIPT Course at B7Web
+ # clock
+* Objective:
+    * Manipulate times and dates with javascript using the date() object and its methods.
+* Technologies used: 
+    * HTML5 
+    * CSS3
+    * JavaScript
+* Link: 
