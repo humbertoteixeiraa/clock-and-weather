@@ -12,7 +12,29 @@ body {
     flex-direction: column;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
+
+    border: 1px solid red;
 }
+
+.container-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid red;
+}
+
+.container-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid red;
+}
+
+/* CLOCK */
 
 h1 {
     color: #FFF;
@@ -97,10 +119,14 @@ h1 {
     text-shadow: 2px 1px 4px black
 }
 
+/* WEATHER */
+
 footer {
     margin-top: 20px;
     color: #FFF;
     font-size: 13px;
+
+    border: 1px solid red;
 }
 
 footer a {
