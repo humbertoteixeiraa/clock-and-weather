@@ -35,5 +35,5 @@ function fixZero(time) {
 }
 
 //METHODS
-setInterval(updateClock, 1000);
+setInterval(updateClock, 1);
 updateClock();
