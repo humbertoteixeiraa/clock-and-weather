@@ -6,4 +6,4 @@
     * HTML5 
     * CSS3
     * JavaScript
-* Link: https://clock-hbt-weather.netlify.app/
+* Link: https://clock-and-weather.netlify.app/
