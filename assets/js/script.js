@@ -1,3 +1,5 @@
+/* CLOCK */
+
 //SELECTORS
 let digitalElement = document.querySelector('.digital');
 let sElement = document.querySelector('.p_s');
@@ -37,3 +39,15 @@ function fixZero(time) {
 //METHODS
 setInterval(updateClock, 1);
 updateClock();
+
+
+
+
+
+/* WEATHER */
+
+//SELECTORS
+
+//FUNCTIONS
+
+//METHODS
