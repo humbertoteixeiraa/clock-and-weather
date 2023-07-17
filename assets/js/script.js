@@ -47,7 +47,47 @@ updateClock();
 /* WEATHER */
 
 //SELECTORS
+document.querySelector('.busca').addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    let input = document.querySelector('#searchInput').value;
+
+    if(input !== '') {
+        showWarning('Loading ...')
+
+        /* Storing the API URL in a variable */
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=225247e0d43270b6830bc9eaac63fa73&units=metric&lang=pt_br`;
+
+        /* Making the request with the fetch() function and storing the result in the variable */
+        let results = await fetch(url);
+
+        /* Converting the result to JSON format */
+        let json = await results.json();
+
+        if(json.cod === 200) {
+            showInfo({
+                name: json.name,
+                country: json.sys.country,
+                temp: json.main.temp,
+                tempIcon: json.weather[0].icon,
+                
+            })
+
+        } else {
+            showWarning('Location not found!')
+        }
+
+        console.log(json.main.temp);
+    }
+})
 
 //FUNCTIONS
+function showInfo(json) {
+
+}
+
+function showWarning(msg) {
+    document.querySelector('.aviso').innerHTML = msg;
+}
 
 //METHODS
