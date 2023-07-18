@@ -13,7 +13,7 @@ body {
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container-clock {
@@ -22,7 +22,7 @@ body {
     align-items: center;
     flex-direction: column;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container-weather {
@@ -33,7 +33,7 @@ body {
     align-items: center;
     flex-direction: column;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* CLOCK */
@@ -227,7 +227,7 @@ footer {
     color: #FFF;
     font-size: 13px;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 footer a {
